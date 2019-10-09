@@ -39,3 +39,19 @@ it("should do stuff", () => {
   expect(bar.something).toEqual("something");
 });
 ```
+
+style child on parent hover
+
+```scss
+.parent {
+    &:hover {
+        .child {
+            display: block;
+        }
+    }
+}
+
+.child {
+    display: none;
+}
+```
